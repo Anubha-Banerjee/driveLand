@@ -1,0 +1,31 @@
+﻿Build started 07-Mar-2015 11:06:39 AM.
+     1>Project "C:\Anubha\driveLand\driveLand\driveLand.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\anubha\driveland\driveland\main.cpp(13): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\anubha\driveland\driveland\main.cpp(82): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\anubha\driveland\driveland\main.cpp(99): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\driveland\driveland\main.cpp(113): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\driveland\driveland\main.cpp(115): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\driveland\driveland\main.cpp(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\driveland\driveland\main.cpp(178): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\driveland\driveland\main.cpp(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\driveland\driveland\main.cpp(194): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\anubha\driveland\driveland\main.cpp(195): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Anubha\driveLand\Debug\driveLand.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Anubha\driveLand\Debug\driveLand.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Anubha\driveLand\Debug\driveLand.lib" /MACHINE:X86 Debug\car.obj
+         Debug\display.obj
+         Debug\initialiseObjects.obj
+         Debug\main.obj
+         Debug\objectLoader.obj
+         Debug\transform.obj
+         "..\..\..\..\..\..\glut\SB5\freeglut-2.6.0\VisualStudio2008Static\Release\freeglut_static.lib"
+         ..\..\..\..\..\..\glut\SB5\VisualStudio2008\GLTools\Release\gltools.lib
+     1>LINK : fatal error LNK1104: cannot open file 'freeglut.lib'
+     1>Done Building Project "C:\Anubha\driveLand\driveLand\driveLand.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.95

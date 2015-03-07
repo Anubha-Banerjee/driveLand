@@ -1,0 +1,98 @@
+﻿Build started 07-Mar-2015 11:15:49 AM.
+     1>Project "C:\projects\driveLand\driveLand\driveLand.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D FREEGLUT_STATIC /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt car.cpp display.cpp initialiseObjects.cpp main.cpp objectLoader.cpp transform.cpp
+         car.cpp
+         display.cpp
+     1>c:\projects\driveland\driveland\variables.h(1): warning C4005: 'FREEGLUT_STATIC' : macro redefinition
+                 command-line arguments :  see previous definition of 'FREEGLUT_STATIC'
+     1>display.cpp(26): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>display.cpp(40): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+         initialiseObjects.cpp
+     1>c:\projects\driveland\driveland\variables.h(1): warning C4005: 'FREEGLUT_STATIC' : macro redefinition
+                 command-line arguments :  see previous definition of 'FREEGLUT_STATIC'
+     1>initialiseObjects.cpp(61): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>initialiseObjects.cpp(137): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>initialiseObjects.cpp(162): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>initialiseObjects.cpp(210): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>initialiseObjects.cpp(211): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>initialiseObjects.cpp(212): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+         main.cpp
+     1>c:\projects\driveland\driveland\variables.h(1): warning C4005: 'FREEGLUT_STATIC' : macro redefinition
+                 command-line arguments :  see previous definition of 'FREEGLUT_STATIC'
+     1>main.cpp(13): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>main.cpp(82): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(99): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(113): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(115): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(178): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(194): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(195): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         objectLoader.cpp
+     1>c:\projects\driveland\driveland\variables.h(1): warning C4005: 'FREEGLUT_STATIC' : macro redefinition
+                 command-line arguments :  see previous definition of 'FREEGLUT_STATIC'
+     1>objectLoader.cpp(9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(30): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(64): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(65): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(66): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(67): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(68): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(69): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(95): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(96): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>objectLoader.cpp(55): warning C4101: 'f_or_new' : unreferenced local variable
+     1>objectLoader.cpp(55): warning C4101: 'test' : unreferenced local variable
+     1>objectLoader.cpp(111): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+         transform.cpp
+     1>c:\projects\driveland\driveland\variables.h(1): warning C4005: 'FREEGLUT_STATIC' : macro redefinition
+                 command-line arguments :  see previous definition of 'FREEGLUT_STATIC'
+     1>transform.cpp(44): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\projects\driveLand\Release\driveLand.exe" /INCREMENTAL:NO /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\projects\driveLand\Release\driveLand.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\driveLand\Release\driveLand.lib" /MACHINE:X86 /SAFESEH Release\car.obj
+         Release\display.obj
+         Release\initialiseObjects.obj
+         Release\main.obj
+         Release\objectLoader.obj
+         Release\transform.obj
+         "..\..\..\..\..\..\glut\SB5\freeglut-2.6.0\VisualStudio2008Static\Release\freeglut_static.lib"
+         ..\..\..\..\..\..\glut\SB5\VisualStudio2008\GLTools\Release\gltools.lib
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUniform1fv imported
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUniform4fv imported
+     1>display.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>main.obj : warning LNK4049: locally defined symbol _glewInit imported
+     1>gltools.lib(GLBatch.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLBatch.obj)' or at 'C:\projects\driveLand\Release\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(glew.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(glew.obj)' or at 'C:\projects\driveLand\Release\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(GLTools.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLTools.obj)' or at 'C:\projects\driveLand\Release\vc90.pdb'; linking object as if no debug info
+     1>gltools.lib(GLTriangleBatch.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gltools.lib(GLTriangleBatch.obj)' or at 'C:\projects\driveLand\Release\vc90.pdb'; linking object as if no debug info
+         driveLand.vcxproj -> C:\projects\driveLand\Release\driveLand.exe
+     1>Done Building Project "C:\projects\driveLand\driveLand\driveLand.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85
